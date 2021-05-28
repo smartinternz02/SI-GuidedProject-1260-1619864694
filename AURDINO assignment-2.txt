@@ -28,9 +28,6 @@ void loop()
   gate.write(90);
   Serial.println("The Gate is at 90");
   delay(1000);
-  gate.write(180);
-  Serial.println("The Gate is at 180");
-  delay(1000);
   gate.write(0);
   Serial.println("The Gate is at 0");
   delay(1000);
